@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="img/Google-Noto-Emoji-Animals-Nature-22285-snake.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <title>Snake Game</title>
+</head>
+
+<body>
+
+    <div id="ctn-game">
+        <div id="instructions">
+            <p>
+            <h3>Instructions</h3>
+            </p>
+            <p>Use arrow keys to control the snake.</p>
+            <p>Eat the apples to score points.</p>
+            <p>Don't crash into yourself or the walls!</p>
+            <p>_________</p>
+
+            <p class="instruct">Press: "S" to START</p>
+            <p class="instruct">Press: "P" to PAUSE</p>
+        </div>
+
+        <div class="container">
+            <h1 id="title">Snake Game</h1>
+            <div class="score-board">
+                <div id="score-board">Score: </div>
+                <div id="score-board-high">High Score: </div>
+            </div>
+            <div id="grid-game"></div>
+            <div id="game-over">
+                <h1>Game Over</h1>
+            </div>
+            <button id="btn-start">Start / Restart</button>
+        </div>
+
+        <div id="credits">
+            <p>
+            <h3>Scrimba</h3>
+            </p>
+            <p>This Project is based on Scrimba's snake game project.</p>
+            <p>By: Ania Kubow</p>
+        </div>
+
+    </div> <!-- ctn-game -->
+
+    <div id="control-board">
+        <!--   Control board -->
+        <div id="control-board-upper">
+            <!-- <div id="control-left-logo">La Roc-Cade <br /><span id="control-left-logo-games">Games</span></div> -->
+            <div id="control-left-logo"><br /><span id="control-left-logo-games"></span></div>
+            <div id="control-middle-joy-stick">
+                <div></div>
+                <div id="joystick-up"><i class="fas fa-arrow-up"></i></div>
+                <div></div>
+                <div id="joystick-left"><i class="fas fa-arrow-left"></i></div>
+                <div></div>
+                <div id="joystick-right"><i class="fas fa-arrow-right"></i></div>
+                <div></div>
+                <div id="joystick-down"><i class="fas fa-arrow-down"></i></div>
+                <div></div>
+            </div>
+            <div id="control-right">
+                <div id="control-board-button-1"><i class="fas fa-male"></i></div>
+                <div id="control-board-button-pause"><i class="fas fa-pause"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

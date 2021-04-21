@@ -1,0 +1,23 @@
+{
+  "name": "Scrimba-SnakeGame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelLarocca/Scrimba-SnakeGame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelLarocca/Scrimba-SnakeGame/issues"
+  },
+  "homepage": "https://github.com/MichaelLarocca/Scrimba-SnakeGame#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
