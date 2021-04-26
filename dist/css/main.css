@@ -216,19 +216,24 @@ button {
   text-shadow: inherit;
   font: inherit; }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 500px) {
   #instructions,
   #credits {
     display: none; }
-  .container {
+  #ctn-game .container {
     align-self: center;
-    max-width: 350px;
+    width: 350px;
     min-width: 350px; }
+  #title {
+    text-align: center; }
   #control-board,
-  #control-board-upper {
+  #control-board-upper,
+  #ctn-game,
+  .score-board {
     margin: 0 auto;
     display: flex;
     align-self: center;
+    width: 350px;
     max-width: 350px;
     min-width: 350px; }
   #control-left-logo {
