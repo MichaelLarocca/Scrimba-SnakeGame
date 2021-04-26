@@ -191,6 +191,8 @@ I am loosely modeling this game board in the style of an arcade cabinet.
 
 ![Pac Man](https://selftaughttxg.com/static/7b2255a868953aad1191e6582b6ca27c/00e65/PacMan.png)
 
+*All rights reserved by Bandai Namco Entertainment*
+
 A marquee-style display will hold the game's title. I will be placing the marquee directly above the game board.
 
 An arcade bezel is on the left and the right side of the game board. 
@@ -457,6 +459,8 @@ I then thought, "why not use the JavaScript Popup alert to pause the game intent
 So, I devised the pause button by printing out code to the JavaScript Popup alert to view my coding mistakes!
 
 ![Happy little accidents](https://selftaughttxg.com/static/14f920dada8e48d02ac3f548a1205e28/80e3c/Bob-Ross.jpg)
+
+*All rights reserved by Robert Ross* 
 
 ---
 
